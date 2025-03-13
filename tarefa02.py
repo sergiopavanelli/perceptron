@@ -12,7 +12,7 @@ X = [
 Y = [0, 1, 1, 1, 0, 0, 0, 0]
 
 # Criando e treinando o modelo Perceptron
-modelo_parque = Perceptron(max_iter=1000, tol=1e-3)
+modelo_parque = Perceptron()
 modelo_parque.fit(X, Y)
 
 # Testando o modelo
