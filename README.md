@@ -15,7 +15,7 @@ O modelo é treinado com os seguintes dados:
 ```python
 X = [[0, 0], [0, 1], [1, 0], [1, 1]]
 Y = [0, 1, 1, 1]  # 0 = Não levar, 1 = Levar
-Após o treinamento, o modelo é testado com todas as combinações possíveis de entradas para prever se é necessário levar o guarda-chuva.
+Após o treinamento, o modelo é testado com todas as combinações possíveis de entradas para prever se é necessário levar o guarda-chuva.```
 
 ### 2. Decisão de Ir ao Parque
 Neste cenário, o Perceptron decide se é uma boa ideia ir ao parque com base em três fatores:
